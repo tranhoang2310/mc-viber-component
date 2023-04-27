@@ -20,7 +20,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/custom-content-block', customContentBlockRouter);
 app.use('/custom-activity', customActivityRouter);
 
-
+app.get('/',(req,res) => {
+    return res.send('deploy thanh cong');
+})
 app.get('/icon.png', (req, res) => {
     res.writeHead(301, {
       Location: req.url.replace('/icon.png', '/assets/icons/viber_icon_80.png')

@@ -22,10 +22,10 @@
         "soapURLASMX": "https://mclhh3l42brv5xvtf743tsqd4cy0.soap.marketingcloudapis.com/Service.asmx"
     },
     "MC_ContentCategories" : {
-        "BannerImages" : "371257",
-        "Files" : "371258",
-        "LinkImages" : "371259",
-        "CustomBlockPrefix" : "Bluescope_ContentBlock"
+        "BannerImages" : "355332",
+        "Files" : "355333",
+        "LinkImages" : "355334",
+        "CustomBlockPrefix" : "Viber"
     },
     "MC_AssetTypes" :{
         "CustomBlock" : "225",

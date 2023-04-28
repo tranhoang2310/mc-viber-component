@@ -223,6 +223,7 @@ mc.getContent= (fields, query) => {
         IET_Client.RestClient
             .post({uri: '/asset/v1/content/assets/query', body: JSON.stringify(payload)})
             .then(function(response) {
+                logger.info('[mc.getContent] - info: ' + JSON.stringify(response));
                 resolve(response.body);
             }.bind(this))
             .catch(function(err) {

@@ -164,6 +164,7 @@ function loadPreviewContent(content, selectedOA) {
             }
         }).then(response => response.json())
         .then(data => {
+            console.log('Log Data in function load preview ',data);
             //if(messageType === 'ZaloOA')
             if(messageType !== 'ZaloOA')
                 document.querySelector('#previewContent').innerHTML = data.content; 
